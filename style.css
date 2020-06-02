@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'icons';
+    src: url('https://dl.dropboxusercontent.com/u/11769/logofont/icons.eot?-ifhbyg');
+    src: url('fonts/icons.eot?#iefix-ifhbyg') format('embedded-opentype'), url('https://dl.dropboxusercontent.com/u/11769/logofont/icons.woff?-ifhbyg') format('woff'), url('https://dl.dropboxusercontent.com/u/11769/logofont/icons.ttf?-ifhbyg') format('truetype'), url('https://dl.dropboxusercontent.com/u/11769/logofont/icons.svg?-ifhbyg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  body {
+    padding: 50px 0 0 0;
+    margin: 0;
+    background: whitesmoke;
+    text-align: center;
+  }
+  .keyframes 0% {
+    height: 100%;
+  }
+  .keyframes 50% {
+    height: 25%;
+  }
+  .keyframes 75% {
+    height: 75%;
+  }
+  .keyframes 100% {
+    height: 15%;
+  }
+  .keyframes2 0% {
+    height: 15%;
+  }
+  .keyframes2 50% {
+    height: 75%;
+  }
+  .keyframes2 75% {
+    height: 25%;
+  }
+  .keyframes2 100% {
+    height: 100%;
+  }
+  @-webkit-keyframes barEQ {
+    lesshat-selector {
+      -lh-property: 8121991;
+    }
+    0% {
+      height: 100%;
+    }
+    50% {
+      height: 25%;
+    }
+    75% {
+      height: 75%;
+    }
+    100% {
+      height: 15%;
+    }
+  }
+  @keyframes barEQ {
+    lesshat-selector {
+      -lh-property: 8121991;
+    }
+    0% {
+      height: 100%;
+    }
+    50% {
+      height: 25%;
+    }
+    75% {
+      height: 75%;
+    }
+    100% {
+      height: 15%;
+    }
+  }
+  @-webkit-keyframes barEQ2 {
+    0% {
+      height: 15%;
+    }
+    50% {
+      height: 75%;
+    }
+    75% {
+      height: 25%;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+  @keyframes barEQ2 {
+    0% {
+      height: 15%;
+    }
+    50% {
+      height: 75%;
+    }
+    75% {
+      height: 25%;
+    }
+    100% {
+      height: 100%;
+    }
+  }
+  .loading-icon {
+    position: relative;
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 0 auto 30px auto;
+  }
+  .bar {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    bottom: 0;
+    float: left;
+    background-color: #fff;
+  }
+  .bar.bar1 {
+    left: 0;
+    -webkit-animation: barEQ 900ms alternate infinite linear;
+    animation: barEQ 900ms alternate infinite linear;
+  }
+  .bar.bar2 {
+    left: 28.33333333%;
+    -webkit-animation: barEQ2 900ms alternate infinite linear;
+    animation: barEQ2 900ms alternate infinite linear;
+    -webkit-animation-delay: -900ms;
+    animation-delay: -900ms;
+  }
+  .bar.bar3 {
+    left: 56.66666667%;
+    -webkit-animation: barEQ 900ms alternate infinite linear;
+    animation: barEQ 900ms alternate infinite linear;
+    -webkit-animation-duration: 675ms;
+    animation-duration: 675ms;
+    -webkit-animation-delay: -450ms;
+    animation-delay: -450ms;
+  }
+  .bar.bar4 {
+    left: 85%;
+    -webkit-animation: barEQ2 900ms alternate infinite linear;
+    animation: barEQ2 900ms alternate infinite linear;
+    -webkit-animation-duration: 810ms;
+    animation-duration: 810ms;
+    -webkit-animation-delay: -270ms;
+    animation-delay: -270ms;
+  }
+
+  .under {
+      color: green;
+  }
